@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio to showcase my projects and skills.",
+    "techStack": ["React", "Tailwind CSS", "React Router"],
+    "image": "https://via.placeholder.com/400x250.png?text=Portfolio",
+    "github": "https://github.com/yourname/portfolio",
+    "live": "https://yourname.github.io/portfolio"
+  },
+  {
+    "id": 2,
+    "title": "Blog Platform",
+    "description": "A full-stack blog platform with user login, post creation, and comments.",
+    "techStack": ["React", "Express", "MongoDB", "Node.js"],
+    "image": "https://via.placeholder.com/400x250.png?text=Blog+Platform",
+    "github": "https://github.com/yourname/blog-platform",
+    "live": "https://blog-platform-demo.netlify.app"
+  },
+  {
+    "id": 3,
+    "title": "E-commerce App",
+    "description": "An e-commerce frontend app with product listings and shopping cart.",
+    "techStack": ["Next.js", "Tailwind CSS", "Stripe API"],
+    "image": "https://via.placeholder.com/400x250.png?text=E-commerce",
+    "github": "https://github.com/yourname/ecommerce-app",
+    "live": "https://ecommerce-demo.vercel.app"
+  },
+  {
+    "id": 4,
+    "title": "Weather App",
+    "description": "A simple weather forecast app using OpenWeatherMap API.",
+    "techStack": ["HTML", "CSS", "JavaScript", "API"],
+    "image": "https://via.placeholder.com/400x250.png?text=Weather+App",
+    "github": "https://github.com/yourname/weather-app",
+    "live": "https://weather-app-demo.netlify.app"
+  }
+]
