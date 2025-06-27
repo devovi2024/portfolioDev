@@ -1,0 +1,158 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0a192f;
+  color: white;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #14b8a6;
+  text-decoration: none;
+}
+
+.navbar-logo span {
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: #d1d5db;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #14b8a6;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.active-link {
+  color: #14b8a6;
+  font-weight: bold;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+.sun-icon {
+  color: #facc15;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bar-icon {
+  font-size: 1.5rem;
+  color: #14b8a6;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100vh;
+  background-color: #0a192f;
+  padding: 1.5rem;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #14b8a6;
+}
+
+.mobile-logo span {
+  color: white;
+}
+
+.close-icon {
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.mobile-links {
+  list-style: none;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mobile-links .nav-link {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+  }
+}
