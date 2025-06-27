@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "author": "Arfan Hosen Ovi",
+    "date": "2024-06-10",
+    "summary": "An introduction to React fundamentals, components, and state.",
+    "image": "https://via.placeholder.com/400x250.png?text=React+Blog",
+    "content": "React is a powerful library used to build modern web UIs with components and hooks."
+  },
+  {
+    "id": 2,
+    "title": "Mastering JavaScript ES6+",
+    "author": "Arfan Hosen Ovi",
+    "date": "2024-05-22",
+    "summary": "Explore the latest features of modern JavaScript (ES6+).",
+    "image": "https://via.placeholder.com/400x250.png?text=JavaScript+Blog",
+    "content": "ES6 introduces features like arrow functions, let/const, destructuring, and template literals."
+  },
+  {
+    "id": 3,
+    "title": "CSS Grid vs Flexbox",
+    "author": "Arfan Hosen Ovi",
+    "date": "2024-05-01",
+    "summary": "Understand the difference between Grid and Flexbox layout systems.",
+    "image": "https://via.placeholder.com/400x250.png?text=CSS+Blog",
+    "content": "CSS Grid is ideal for two-dimensional layouts, while Flexbox is best for one-dimensional flows."
+  }
+]
