@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "level": "Advanced",
+        "title": "JS"
+
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "level": "Intermediate",
+        "title": "JS"
+
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "level": "Advanced",
+    "title": "JS"
+  }
+]
