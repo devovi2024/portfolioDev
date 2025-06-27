@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "description": "Building responsive and dynamic websites using React, Node.js, and modern technologies.",
+    "icon": "🌐"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design",
+    "description": "Designing user-friendly interfaces and engaging user experiences with Figma and Adobe XD.",
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "title": "API Integration",
+    "description": "Connecting frontend with backend services through RESTful and GraphQL APIs.",
+    "icon": "🔗"
+  },
+  {
+    "id": 4,
+    "title": "Performance Optimization",
+    "description": "Improving website speed, SEO, and overall performance to provide the best user experience.",
+    "icon": "⚡"
+  }
+]
